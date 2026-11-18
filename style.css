@@ -46,3 +46,12 @@ header.site-header .site-languages{display:flex;align-items:center;gap:6px;margi
 html[lang="ko"]{--ko-font:"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}
 html[lang="ko"] :is(body,h2,.home-copy,.one-copy,.prof-section,.m .po,.m .nm,.yr .era-label,.og,.og-follow,.nav){font-family:var(--ko-font)}
 @media(max-width:1000px){header.site-header .brand{flex:1;min-width:0;overflow-wrap:anywhere}.site-languages{order:1}.site-menu{order:2}}
+
+.contact-form{max-width:620px;margin:28px auto;padding:0 16px}
+.contact-form form{display:grid;gap:14px}
+.contact-form label{display:grid;gap:5px;font-weight:600}
+.contact-form input,.contact-form select,.contact-form textarea{box-sizing:border-box;width:100%;padding:9px;border:1px solid #767676;border-radius:4px;font:inherit}
+.contact-form textarea{resize:vertical}
+.contact-form button{justify-self:start;background:#151a25;color:#fff;border:0;border-radius:4px;padding:9px 18px;font:inherit;cursor:pointer}
+.contact-form button:disabled{opacity:.65;cursor:default}
+.contact-form p{margin:0}
